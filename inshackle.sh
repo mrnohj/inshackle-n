@@ -374,9 +374,9 @@ unfollower() {
 user_account=$user
 get_following
 
-printf "\e[1;31m[\e[0m\e[1;77m+\e[0m\e[1;31m]\e[0m\e[1;93m Preparing to unfollow all followers from \e[0m\e[1;77m%s ...\e[0m\n" $user_account
+printf "\e[1;31m[\e[0m\e[1;77m+\e[0m\e[1;31m]\e[0m\e[1;93m Preparando para parar de seguir celebridades agora \e[0m\e[1;77m%s ...\e[0m\n" $user_account
 printf "\e[1;31m[\e[0m\e[1;77m+\e[0m\e[1;31m]\e[0m\e[1;31m Press \"Ctrl + c\" to stop...\e[0m\n"
-sleep 4
+sleep 1
 while [[ true ]]; do
 
 
@@ -399,7 +399,7 @@ else
 printf "\e[1;92mOK\e[0m\n"
 fi
 
-sleep 3
+sleep 1
 done
 
 
@@ -411,7 +411,7 @@ increase_followers() {
 
 printf "\e[1;77m[\e[0m\e[1;31m+\e[0m\e[1;77m] Esta tecnica consiste em seguir/parar de seguir celebridades\e[0m\n"
 printf "\e[1;77m[\e[0m\e[1;31m+\e[0m\e[1;77m]\e[0m\e[1;93m Pressione Ctrl + C para parar \e[0m\n"
-sleep 5
+sleep 1
 
 username_id=$(curl -L -s 'https://www.instagram.com/'$user'' > getid && grep -o  'profilePage_[0-9]*.' getid | cut -d "_" -f2 | tr -d '"')
 
@@ -502,7 +502,7 @@ else
 printf "\e[1;92mOK\e[0m\n"
 fi
 
-sleep 3
+sleep 1
 
 done
 printf "\e[1;31m[\e[0m\e[1;77m+\e[0m\e[1;31m]\e[0m\e[1;77m Voltando em 1 segundo...\e[0m\n"
@@ -521,7 +521,7 @@ else
 printf "\e[1;92mOK\e[0m\n"
 fi
 
-sleep 3
+sleep 1
 done
 printf "\e[1;31m[\e[0m\e[1;77m+\e[0m\e[1;31m]\e[0m\e[1;77m Voltando em 1 segundo...\e[0m\n"
 sleep 1
@@ -693,7 +693,7 @@ unfollower
 else
 
 printf "\e[1;93m[!] Invalid Option!\e[0m\n"
-sleep 2
+sleep 1
 menu
 
 fi
