@@ -481,7 +481,7 @@ realdonaldtrump="347696668"
 
 
 if [[ ! -e celeb_id ]]; then
-printf "%s\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n" $nobrutv $lucas_lira $rezende $carlinhosmaiaof $brunoplayhard $loud_babi $loud_bradoock $loud_gs $loud_mob $loud_thurzin $loud_victor $loudgg $bambamoficial $joaoguilherme $playstation $playstation_br $luansantana $justinbieber $xbox $xboxbr $danimolo $lukasmarques $krawk $karanbrar $alok $pedrosampaio$youtube $rockstargames $juandediospantoja $samsungbrasil $realdonaldtrump $lilpump $microsoft $liampayne $apple $dualipa $mileycyrus $shawnmendes $katyperry $charlieputh $lelepons $camila_cabello $madonna $leonardodicaprio $ladygaga $taylorswift $instagram $neymar $selena $ariana $beyonce $cristiano $kimkardashian $kendall $therock $kylie $jelopez $messi > celeb_id
+printf "%s\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n" $nobrutv $lucas_lira $rezende $carlinhosmaiaof $brunoplayhard $loud_babi $loud_bradoock $loud_gs $loud_mob $loud_thurzin $loud_victor $loudgg $bambamoficial $joaoguilherme $playstation $playstation_br $luansantana $justinbieber $xbox $xboxbr $danimolo $lukasmarques $krawk $karanbrar $alok $pedrosampaio $youtube $rockstargames $juandediospantoja $samsungbrasil $realdonaldtrump $lilpump $microsoft $liampayne $apple $dualipa $mileycyrus $shawnmendes $katyperry $charlieputh $lelepons $camila_cabello $madonna $leonardodicaprio $ladygaga $taylorswift $instagram $neymar $selena $ariana $beyonce $cristiano $kimkardashian $kendall $therock $kylie $jelopez $messi > celeb_id
 fi
 
 while [[ true ]]; do
