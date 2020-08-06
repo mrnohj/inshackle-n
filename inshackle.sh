@@ -445,14 +445,12 @@ lucas_lira="1235969527"
 rezende="226255027"
 freefirebr_oficial="7817154018"
 nobrutv="8497509417"
-corinthians.ff="14069345199"
 loudgg="9301267495"
 loud_babi="527452072"
 loud_victor="321157929"
 loud_thurzin="13058841751"
 loud_bradoock="561956185"
 loud_gs="4123929946"
-loud.voltan="252620367"
 loud_mob="5891278926"
 brunoplayhard="1442203501"
 playstation_br="1041868007"
@@ -473,7 +471,6 @@ lukasmarques="29837029"
 danimolo="186002963"
 apple="5821462185"
 samsungbrasil="43206570"
-xiaomi.global="5753056821"
 juandediospantoja="343414996"
 rockstargames="184595688"
 youtube="1337343"
@@ -484,7 +481,7 @@ realdonaldtrump="347696668"
 
 
 if [[ ! -e celeb_id ]]; then
-printf "%s\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n" $corinthians.ff $nobrutv $lucas_lira $rezende $carlinhosmaiaof $brunoplayhard $loud $loud_babi $loud_bradoock $loud_gs $loud_mob $loud_thurzin $loud_victor $loudgg $bambamoficial $joaoguilherme $playstation $playstation_br $luansantana $justinbieber $xbox $xboxbr $danimolo $lukasmarques $krawk $karanbrar $alok $pedrosampaio$youtube $rockstargames $juandediospantoja $xiaomi.global $samsungbrasil $realdonaldtrump $lilpump $microsoft $liampayne $apple $dualipa $mileycyrus $shawnmendes $katyperry $charlieputh $lelepons $camila_cabello $madonna $leonardodicaprio $ladygaga $taylorswift $instagram $neymar $selena $ariana $beyonce $cristiano $kimkardashian $kendall $therock $kylie $jelopez $messi > celeb_id
+printf "%s\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n" $nobrutv $lucas_lira $rezende $carlinhosmaiaof $brunoplayhard $loud_babi $loud_bradoock $loud_gs $loud_mob $loud_thurzin $loud_victor $loudgg $bambamoficial $joaoguilherme $playstation $playstation_br $luansantana $justinbieber $xbox $xboxbr $danimolo $lukasmarques $krawk $karanbrar $alok $pedrosampaio$youtube $rockstargames $juandediospantoja $samsungbrasil $realdonaldtrump $lilpump $microsoft $liampayne $apple $dualipa $mileycyrus $shawnmendes $katyperry $charlieputh $lelepons $camila_cabello $madonna $leonardodicaprio $ladygaga $taylorswift $instagram $neymar $selena $ariana $beyonce $cristiano $kimkardashian $kendall $therock $kylie $jelopez $messi > celeb_id
 fi
 
 while [[ true ]]; do
